@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet build
   displayName: 'dotnet build $(buildConfiguration)'
 
 - script: |
